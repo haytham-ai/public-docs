@@ -18,5 +18,9 @@ git-repository-url = "https://github.com/haytham-ai/public-docs"
 # 在网页右上角显示对应页面的编辑按钮
 edit-url-template = "https://github.com/haytham-ai/public-docs/edit/master/{path}"
 
+[output.html.fold]
+enable = true
+level = 0
+
 [output.html.playground]
 copyable = true
