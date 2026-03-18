@@ -8,7 +8,7 @@
         其中非千问模型都是阉割版本，不建议使用。
   - [ ] 当前 OpenCode 采用 Oh My OpenCode 多智能体编排插件，这个插件过于繁杂，占用太多上下文，会拖慢智能体推理速度，
         建议移除该插件并添加 Oh My OpenCode Slim 插件作替代。
-        需重新配置新插件各子智能体角色所用模型，并更新[维护文档](configure.md)。
+        需重新配置新插件各子智能体角色所用模型，并更新[配置文档](configure.md)。
   - [ ] 当前智能体耗费大量时间在任务前文档检索上。
         项目 `https://github.com/hsingjui/ContextWeaver` 声称能做到文档和代码的快速语义召回。
         可设法在 OpenCode 容器内配置。
